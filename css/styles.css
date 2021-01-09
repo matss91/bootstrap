@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+    margin:0  ;
+    padding: 0;
+}
+body{
+  font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+
+
+header{
+    height:20vh ;
+    
+    
+    }
+main{
+    padding:40px 0 ;
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+margin:30px 0;
+    
+}
+
+
+.productos{
+    
+    
+}
+.producto{
+    display:flex;
+ 
+    flex-direction:column ;
+   
+    background-color:white;
+    margin:10px 0px;
+    border:1px solid gray;
+    border-radius:10px ;
+    box-shadow:5px 5px 5px black ;
+    padding:15px ;
+
+    align-items: center;
+    height:500px ;
+}
+
+
+.producto img{
+    width:60%;
+    
+}
+.producto h3{
+    margin:30px 0;
+    text-transform:uppercase ;
+}
+@media(min-width:768px){
+
+.producto{
+    width:45% ;
+}
+
+}
+
+
+@media(min-width:1024px){
+
+    .producto{
+        width:30% ;
+    }
+    
+    }
+    
+    
+    
+
+
+
+
+
+
+footer{
+    height:20vh ;
+
+}
